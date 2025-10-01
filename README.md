@@ -1,17 +1,14 @@
-This repository hosts the **Paragonkey** personal/brand website using GitHub Pages.
+# Wardlaw Security and VIP Guards Ltd – Paragonkey
 
-## 📌 Features
-- Static single-page site (About, Projects, Contact)
-- Mobile-friendly & responsive
-- Contact form integration (via Formspree or email fallback)
+**Elite Protection. Unmatched Trust.**
 
-## 🚀 Deployment
-This site is auto-deployed to **GitHub Pages** from the `main` branch.
+Wardlaw Security and VIP Guards Ltd provides high-level security services with a focus on **VIP protection, corporate safeguarding, and advanced risk management**.  
 
-Live site: [https://paragonkey.github.io](https://paragonkey.github.io)
+### 🔒 Services
+- **VIP Guarding** – Trained close-protection officers for executives, celebrities, and diplomats.  
+- **Corporate Security** – Secure facilities, events, and sensitive operations.  
+- **Surveillance & Risk Assessment** – Intelligence-driven solutions to neutralize threats.  
+- **Rapid Response** – Crisis management and emergency deployment.  
 
-## 🔧 Local Development
-To test locally:
-```bash
-open index.html# paragonkey.github.io
-# Paragonkey
+> Safety. Confidentiality. Professionalism.  
+> *Your security, our highest priority.*
