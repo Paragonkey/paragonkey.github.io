@@ -1,1 +1,51 @@
-echo "<h1>Welcome to Paragonkey</h1>" > index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Paragonkey</title>
+  <meta name="description" content="Paragonkey — Secure & innovative solutions.">
+  <!-- Basic CSP via meta (helps reduce XSS risk) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' data: https:; frame-ancestors 'none';">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <header class="bg-blue-700 text-white p-6 text-center">
+    <h1 class="text-3xl font-bold">Welcome to Paragonkey</h1>
+    <p>Your projects, portfolio, and contact all in one place.</p>
+  </header>
+
+  <main class="p-8">
+    <section id="about" class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">About</h2>
+      <p>Hello! This is the official site for Paragonkey. Stay tuned for updates and projects.</p>
+    </section>
+
+    <section id="projects" class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Projects</h2>
+      <ul class="list-disc list-inside">
+        <li>Wardlaw-Security — security tooling</li>
+        <li>Project Two — description</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Contact Me</h2>
+      <form action="https://formspree.io/f/mkgqbwrn" method="POST" class="flex flex-col gap-4 max-w-md">
+        <input type="text" name="name" placeholder="Your Name" required class="p-2 border rounded">
+        <input type="email" name="email" placeholder="Your Email" required class="p-2 border rounded">
+        <textarea name="message" placeholder="Your Message" required class="p-2 border rounded"></textarea>
+        <!-- redirect to friendly thank-you page -->
+        <input type="hidden" name="_redirect" value="https://paragonkey.github.io/thanks.html">
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-white text-center p-4">
+    <p>&copy; <span id="year"></span> Paragonkey. All rights reserved.</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

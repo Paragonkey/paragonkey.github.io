@@ -1,0 +1,5 @@
+# Security contact file for Paragonkey
+Contact: mailto:hello@paragonkey.io
+Encryption: https://paragonkey.github.io/pgp-key.txt
+Acknowledgements: https://paragonkey.github.io/thanks.html
+Preferred-Languages: en
