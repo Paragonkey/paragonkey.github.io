@@ -1,5 +1,3 @@
-# Paragonkey.github.io
-
 This repository hosts the **Paragonkey** personal/brand website using GitHub Pages.
 
 ## 📌 Features
